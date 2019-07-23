@@ -1,0 +1,18 @@
+Step - build docker image command 
+
+docker build -f DockerFile -t docker-spring-boot .
+
+check the images in container 
+docker images
+
+run the image --docker-spring-boot
+
+docker run -p 9191:8086 docker-spring-boot
+
+To see live logs -- get container console
+
+docker logs -f <containername>
+
+Url for docker
+
+http://192.168.99.100:8085/users/sdad
